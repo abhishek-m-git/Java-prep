@@ -16,6 +16,15 @@ public class type_conversion_casting {
 
         System.out.println(c);
 
+
+        byte x = 10;
+        byte y = 20;
+
+        int z = x*y;   //type promotion
+
+        System.out.println(z);
+
+
     }
     
 }
