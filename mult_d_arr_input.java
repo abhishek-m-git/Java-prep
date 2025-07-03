@@ -15,16 +15,16 @@ public class mult_d_arr_input {
 
         int[][] arr = new int[size1][size2];
 
-        for (int i = 0; i<size1; i++){
+        for (int i = 0; i<arr.length; i++){
             System.out.println("Enter array elements :");
-            for (int j = 0 ; j<size2; j++){
+            for (int j = 0 ; j<arr[i].length; j++){
                 arr[i][j] = sc.nextInt();
             }
         }
 
-        for (int i = 0; i<size1; i++){
+        for (int i = 0; i<arr.length; i++){
             System.out.println("Array " +i+ " :");
-            for(int j = 0; j<size2; j++){
+            for(int j = 0; j<arr[i].length; j++){
                 System.out.print(arr[i][j] + " ");
             }
             System.out.println();
