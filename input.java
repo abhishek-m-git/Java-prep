@@ -13,6 +13,6 @@ class input{
         System.out.println("Enter age : ");
         String age = sc.nextLine();
 
-        System.out.println("Your Name is : `¡" + name + " And Your age is : " + age );
+        System.out.println("Your Name is : " + name + " And Your age is : " + age );
     }
 }
